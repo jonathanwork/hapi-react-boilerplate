@@ -1,5 +1,13 @@
+'use strict';
+
+var _path = require('path');
+
+var _path2 = _interopRequireDefault(_path);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 var route_container = [];
-import path from 'path';
+
 //simple function appends obj into an array
 function route_appender(obj, arr) {
   arr.push(obj);
@@ -12,7 +20,7 @@ var vendor_page = {
   config: {
     handler: {
       directory: {
-        path: path.join(__dirname, '../../app/bower_components'),
+        path: _path2.default.join(__dirname, '../../app/bower_components'),
         index: false
       }
 
@@ -27,7 +35,7 @@ var default_page = {
   config: {
     handler: {
       directory: {
-        path: path.join(__dirname, '../../app'),
+        path: _path2.default.join(__dirname, '../../app'),
         index: false
 
       }
@@ -40,7 +48,7 @@ var default_redirect = {
   method: 'GET',
   path: '/',
   config: {
-    handler: (req, reply) => {
+    handler: function handler(req, reply) {
       reply.redirect('/index.html');
     }
   }

@@ -5,7 +5,7 @@
   "main": "server/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "babel-node server/server.js --presets es2015,stage-2 | node compiler"
+    "start": "babel-node server/server.js --presets es2015,stage-2,react,env | node compiler"
   },
   "keywords": [
     "boilerplate",
@@ -16,6 +16,12 @@
   "author": "Jonathan R. Lopez",
   "license": "MIT",
   "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "browser-sync": "^2.18.8",
     "gulp": "^3.9.1",

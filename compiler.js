@@ -2,7 +2,7 @@ var spawn = require('child_process').spawn;
 
 var sass = spawn('sass', ['--watch', './source/sass/main.sass:./app/css/main.css']);
 var babelServerCompiler = spawn('babel',['--watch', 'server-source', '--out-dir', 'server']);
-var babelClientCompiler = spawn('babel',['--watch', 'source/js', '--out-dir', 'app/js']);
+var babelClientCompiler = spawn('babel',['--watch', 'source/js', '--out-dir', 'app/js', '--presets', 'es2015,stage-2,react,env']);
 
 
 
