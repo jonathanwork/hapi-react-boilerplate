@@ -1,3 +1,4 @@
 #ingoring files
 node_modules
 .sass-cache
+app/bower_components

@@ -1,0 +1,26 @@
+{
+  "name": "app",
+  "authors": [
+    "Jonathan Lopez <lopezjr2334@student.laccd.edu>"
+  ],
+  "description": "app for my project",
+  "main": "",
+  "keywords": [
+    "project",
+    "app",
+    "js"
+  ],
+  "license": "MIT",
+  "homepage": "jonathanrlopez.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^15.5.4"
+  }
+}
