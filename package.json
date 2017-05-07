@@ -1,0 +1,31 @@
+{
+  "name": "hapi-react-boilerplate",
+  "version": "1.0.0",
+  "description": "boilerplate for hapi and reactjs",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node server/server.js --presets es2015,stage-2 | node compiler"
+  },
+  "keywords": [
+    "boilerplate",
+    "hapi",
+    "and",
+    "reactjs"
+  ],
+  "author": "Jonathan R. Lopez",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-stage-2": "^6.24.1",
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "hapi": "^16.1.1",
+    "inert": "^4.2.0"
+  },
+  "dependencies": {
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "vision": "^4.1.1"
+  }
+}
