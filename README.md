@@ -1,5 +1,5 @@
 ### Simple Babel and Hapi and React starter kit
-
+#### maintainer Jonathan R. Lopez
 run the following command to start your project
 
     npm install
