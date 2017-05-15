@@ -12,7 +12,7 @@ html: __dirname + '/app'
 gulp.task('nodemon', (cb)=> {
 var called = false;
 return nodemon({
- script: 'babel-node server/server.js --presets es2015,stage-2'
+ script: 'server/server.js'
  ,ext: 'js css html'
  ,ignore: [
    'gulpfile.js',
