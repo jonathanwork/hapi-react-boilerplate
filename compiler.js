@@ -40,12 +40,12 @@ sass.on('close', code=> {
   console.log(`sass child process exited with code ${code}`);
 });
 
-babelServerCompiler.on('closes', code=> {
-  console.log(`babel server close`)
+babelServerCompiler.on('close', code=> {
+  console.log(`babel server child process exited code ${code}`);
 })
 
-babelClientCompiler.on('closes', code=> {
-  console.log(`babel client close`)
+babelClientCompiler.on('close', code=> {
+  console.log(`babel client child process exited code ${code}`);
 })
 
 

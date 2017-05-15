@@ -10,7 +10,7 @@ go to app folder and install
 
 run app by using
 
-    node compiler.js
+    npm start
 
 this should allow you to run sass and babel.
 modify in source and app should be your product cool enjoy

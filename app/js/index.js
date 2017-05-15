@@ -6,7 +6,7 @@ function formatName(user) {
 
 var user = {
   firstName: 'john',
-  lastName: 'doe'
+  lastName: 'doo'
 };
 
 var element = React.createElement(
